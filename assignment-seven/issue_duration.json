@@ -1,0 +1,16 @@
+[
+    {
+        "repo_name": "exception_notification",
+        "issue_id": 50306,
+        "created_at": "2011-02-13T03:46:06.000Z",
+        "closed_at": "2011-04-14T23:27:33.000Z",
+        "duration": "60 days 19:41:27.000000000"
+    },
+    {
+        "repo_name": "exception_notification",
+        "issue_id": 50308,
+        "created_at": "2011-01-19T18:47:41.000Z",
+        "closed_at": "2013-12-09T13:51:03.000Z",
+        "duration": "1054 days 19:03:22.000000000"
+    }
+]
