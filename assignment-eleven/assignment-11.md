@@ -1,0 +1,9 @@
+# Assignment 11
+
+## Working Group Call
+While I did not attend a specific working group call, I attended the **General CHAOSS Weekly Call** on April 7 at 11am. You can find my name and "how I was feeling" note in the call document.
+
+## Podcast Reflection
+I do not listen to podcasts very often but I quite enjoyed the CHAOSS podcast we were assigned to listen to for this assignment. In the first 11 minutes, I really enjoyed the origin stories everyone shared in regard to their start with open source/metrics and ultimately CHAOSS where they all were able to come together and work on a common goal/project. That was probably my favorite part of the podcast because they all had a fairly different origin story, but shared a sense of curiosity with open source/metrics that began their journey up until where they are now. I think the overall idea of CHAOSS that is talked about during the podcast is a very interesting idea and seems very neccessary for people that participate in open source projects. I'm not very involved with open source projects so I didn't follow the second half of the podcast as much as I did the first, but I can clearly see how CHAOSS or something like Augur (product/software mentioned in the podcast) might be essential for people on the open source world.
+
+This is unrelated to the podcast and more about the weekly call I attended, but I worked for Dell over this last summer, and the weekly call atmosphere, workflow, and format was very similar to the weekly calls I had at Dell while I was working there. As an intern, I had less real participation in the call as I maybe would have had if I was an actual employee, so sitting in and listening in the same way I did over the summer was very refreshing as I always learned something new in those simple "agenda" calls.
