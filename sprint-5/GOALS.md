@@ -1,0 +1,5 @@
+# Goal of my Application
+
+I should note that I haven't fully decided on using the following idea for my application, but I think it would be fun to work with and build on.
+
+When I took CS3330 (Object Oriented Programming), I created a food diary for my final project. I created this because at the time, it was something I needed to use and figured it would be fun create on my own. I created it, but it was very basic, and didn't quite function how I wanted it to. With what we have learned in this class, I think it would be interesting to recreate it (more completely after this class is completed) with SSO, database access, etc. The audience, I suppose, is myself, but might be useful or others who want a simple food diary application that strictly performs the task of noting food. SSO for an application like this that could be run locally is really not needed, but transforming it into an online application that can be accessed via a laptop or mobile device with saved data might be useful. The application would collect data entered by the user, and save it to a database that can be access on multiple devices.
