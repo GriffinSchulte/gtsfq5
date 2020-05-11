@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="560.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gtsfq5foodlogger.LogViewerController">
+   <children>
+      <MenuBar prefWidth="560.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleOpen" text="Open" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleSave" text="Save" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Clear">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#clearBreakfast" text="Clear Breakfast" />
+                  <MenuItem mnemonicParsing="false" onAction="#clearSnackOne" text="Clear First Snack" />
+                  <MenuItem mnemonicParsing="false" onAction="#clearLunch" text="Clear Lunch" />
+                  <MenuItem mnemonicParsing="false" onAction="#clearSnackTwo" text="Clear Second Snack" />
+                  <MenuItem mnemonicParsing="false" onAction="#clearDinner" text="Clear Dinner" />
+                  <MenuItem mnemonicParsing="false" onAction="#clearAll" text="Clear All" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label fx:id="dateLabel" alignment="CENTER" layoutX="30.0" layoutY="65.0" text="MM/DD/YYYY">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="190.0" layoutY="44.0" text="Food Log">
+         <font>
+            <Font name="Arial Black" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="clockLabel" alignment="CENTER" layoutX="422.0" layoutY="65.0" text="00:00:00 AM">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="30.0" layoutY="98.0" prefWidth="500.0" />
+      <AnchorPane layoutX="30.0" layoutY="112.0" prefHeight="120.0" prefWidth="500.0">
+         <children>
+            <Label alignment="CENTER" layoutX="-40.0" layoutY="40.0" prefHeight="40.0" prefWidth="120.0" rotate="-90.0" style="-fx-background-color: #089767; -fx-border-color: Black;" text="BREAKFAST">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="breakfast" layoutX="39.0" prefHeight="120.0" prefWidth="461.0" style="-fx-background-radius: 0; -fx-border-color: Black;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="30.0" layoutY="244.0" prefHeight="120.0" prefWidth="500.0">
+         <children>
+            <Label alignment="CENTER" layoutX="-40.0" layoutY="40.0" prefHeight="40.0" prefWidth="120.0" rotate="-90.0" style="-fx-background-color: #089767; -fx-border-color: Black;" text="SNACK">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="snackOne" layoutX="39.0" prefHeight="120.0" prefWidth="461.0" style="-fx-background-radius: 0; -fx-border-color: Black;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="30.0" layoutY="376.0" prefHeight="120.0" prefWidth="500.0">
+         <children>
+            <Label alignment="CENTER" layoutX="-40.0" layoutY="40.0" prefHeight="40.0" prefWidth="120.0" rotate="-90.0" style="-fx-background-color: #089767; -fx-border-color: Black;" text="LUNCH">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="lunch" layoutX="39.0" prefHeight="120.0" prefWidth="461.0" style="-fx-background-radius: 0; -fx-border-color: Black;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="30.0" layoutY="508.0" prefHeight="120.0" prefWidth="500.0">
+         <children>
+            <Label alignment="CENTER" layoutX="-40.0" layoutY="40.0" prefHeight="40.0" prefWidth="120.0" rotate="-90.0" style="-fx-background-color: #089767; -fx-border-color: Black;" text="SNACK">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="snackTwo" layoutX="39.0" prefHeight="120.0" prefWidth="461.0" style="-fx-background-radius: 0; -fx-border-color: Black;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="30.0" layoutY="640.0" prefHeight="120.0" prefWidth="500.0">
+         <children>
+            <Label alignment="CENTER" layoutX="-40.0" layoutY="40.0" prefHeight="40.0" prefWidth="120.0" rotate="-90.0" style="-fx-background-color: #089767; -fx-border-color: Black;" text="DINNER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="dinner" layoutX="39.0" prefHeight="120.0" prefWidth="461.0" style="-fx-background-radius: 0; -fx-border-color: Black;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

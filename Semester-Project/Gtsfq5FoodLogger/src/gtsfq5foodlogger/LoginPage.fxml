@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="790.0" prefWidth="560.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gtsfq5foodlogger.LoginPageController">
+   <children>
+      <Label alignment="CENTER" layoutX="107.0" layoutY="224.0" prefHeight="120.0" prefWidth="350.0" style="-fx-background-color: #089767; -fx-border-color: Black;" text="Griffin's Food&#10;Logger&#10;" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="140.0" layoutY="374.0" text="Username:">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="426.0" text="Password:">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="260.0" layoutY="374.0" promptText="Griffin" />
+      <Button layoutX="234.0" layoutY="482.0" mnemonicParsing="false" onAction="#goToLog" prefWidth="100.0" text="Login" />
+      <PasswordField fx:id="password" layoutX="260.0" layoutY="426.0" promptText="Password123" />
+      <Label layoutX="83.0" layoutY="768.0" text="(NOTE: The username is &quot;Griffin&quot; and the password is &quot;Password123&quot;)" />
+   </children>
+</AnchorPane>
